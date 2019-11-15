@@ -16,4 +16,7 @@ package-lock.json
 coverage/
 
 # gitkeep
-!*/**/.gitkeep
+!.gitkeep
+
+# images
+*.jpg
