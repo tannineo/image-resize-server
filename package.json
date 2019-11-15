@@ -1,0 +1,42 @@
+{
+  "name": "koa-starter-kit",
+  "version": "1.0.0",
+  "description": "Boilerplate for Koa RESTful API",
+  "main": "app/app.js",
+  "author": "tannineo <tannineo@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node --inspect app/app.js",
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --detectOpenHandles --coverage && node scripts/openCoverageInBrowser.js"
+  },
+  "keywords": [
+    "koa",
+    "boilerplate",
+    "rest",
+    "skeleton"
+  ],
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "open": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-root-import": "^6.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0"
+  }
+}

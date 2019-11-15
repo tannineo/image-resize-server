@@ -1,0 +1,16 @@
+# node
+node_modules/
+
+# OSX
+*.DS_Store
+
+# vscode
+.vscode/
+
+# package manager files
+yarn.lock
+yarn-error.log
+package-lock.json
+
+# test coverage
+coverage/
