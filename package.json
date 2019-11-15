@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "DEBUG=app:* npx nodemon app/app.js",
     "test": "jest --detectOpenHandles",
-    "coverage": "jest --detectOpenHandles --coverage && node scripts/openCoverageInBrowser.js"
+    "coverage": "jest --detectOpenHandles --coverage && node scripts/openCoverageInBrowser.js",
+    "serve": "babel-node app/app.js"
   },
   "keywords": [
     "koa",
