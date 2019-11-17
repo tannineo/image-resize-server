@@ -6,6 +6,9 @@ const port = process.env.PORT
 
 const app = new Koa()
 
+// cors mw
+app.use(require('koa2-cors')())
+
 // apply routes
 app.use(routes)
 
